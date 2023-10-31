@@ -164,7 +164,6 @@ main {
     color: var(--clr-white);
 }
 
-
 /** CARRITO **/
 
 .contenedor-carrito {
@@ -274,3 +273,18 @@ footer {
     text-align: center;
 background-color: #785ce9;
 }
+
+/** APP CLIMA **/
+
+.container-clima {
+    background-color: #684adf;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid #785ce9;
+}
+
+
+
+

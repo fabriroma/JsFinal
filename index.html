@@ -38,11 +38,20 @@
         <main>
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
             <div id="contenedor-productos" class="contenedor-productos">
-                <!-- Esto se va a rellenar con JS -->
             </div>
         </main>
     </div>
 
+    <div class="container-clima">
+        <h1>Temperatura</h1>
+        <select name="ciudad" id="ciudad">
+        <option value="buenos aires"> Buenos Aires (Argentina) </option>
+        <option value="bogota">Bogota (Colombia) </option>
+        <option value="ciudad de mexico">Ciudad de Mexico (Mexico) </option>
+        <option value="madrid"> Madrid (España) </option>
+    </select>
+    <h2 id="temp"> - </h2>
+    </div>
 
     <footer>
         <div class="textofooter">
@@ -53,6 +62,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/app.js"></script>
 
 </body>
 </html>
